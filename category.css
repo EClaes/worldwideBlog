@@ -1,0 +1,163 @@
+body{
+  /*font-family: 'Poiret One', cursive;*/
+  /*font-family: 'Antic Slab', serif;*/
+  /*font-family: 'Satisfy', cursive;*/
+  width: 100%;
+}
+
+h1{
+  width: 50%;
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  margin: 13.5% auto;
+}
+
+h2{
+  width: 50%;
+  color: white;
+  font-size: 2em;
+  font-family: 'Satisfy', cursive;
+  text-align: center;
+  margin: -12% auto;
+}
+
+.titel{
+  width: 50%;
+  height: 25vw;
+  background-image: url("topfoto.jpg");
+  background-size: cover;
+  margin: 0% auto;
+  display: block;
+  border: 1px solid white;
+}
+
+.kader{
+  width: 85%;
+  height: 75%;
+  margin: 5% auto;
+  border: 3px solid white;
+}
+
+nav{
+  width: 50%;
+  margin: 1.5% auto;
+  border: 1px solid white;
+  background: white;
+  box-shadow: 0.5px 0.5px 8px;
+}
+
+ul{
+  width: 100%;
+  margin: 1.5% auto;
+  text-align: center;
+}
+
+li{
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.5em;
+  display: inline;
+}
+
+.travelHistory{
+  margin-left: 10%;
+}
+
+.lookbook{
+  margin-left: 10%;
+}
+
+.category{
+  margin-left: 10%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.post1{
+  width: 50%;
+  margin: 5% auto;
+  border: 1px solid white;
+}
+
+.croatia{
+  width: 50%;
+}
+
+h3{
+  width: 48%;
+  font-size: 1.8em;
+  font-family: 'Poiret One', cursive;
+  font-weight: bold;
+  float: right;
+}
+
+.tekst1{
+  width: 47.5%;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  float: right;
+  margin-top: -26.5%;
+}
+
+.lezen{
+  width: 47.5%;
+  font-size: 1.2em;
+  font-weight: bold;
+  font-family: 'Poiret One', cursive;
+  float: right;
+  margin-top: -13.5%;
+}
+
+.link1{
+  text-decoration: underline;
+  color: blue;
+}
+
+@media (max-width: 1580px){
+  h1{font-size: 4.7em;}
+}
+
+@media (max-width: 1450px){
+  h1{font-size: 4.5em;}
+  li{font-size: 1.2em;}
+}
+
+@media (max-width: 1300px){
+  h1{font-size: 4em;}
+}
+
+@media (max-width: 1200px){
+  h1{font-size: 3.8em;}
+  h2{font-size: 1.7em;}
+}
+
+@media (max-width: 1080px){
+  h1{font-size: 3.2em;}
+  h2{font-size: 1.4em;}
+
+}
+
+@media (max-width: 950px){
+  h1{font-size: 2.8em;}
+  li{font-size: 0.8em;}
+  h2{font-size: 1.2em;}
+}
+
+@media (max-width: 800px){
+  h1{font-size: 2em;}
+  h2{font-size: 1em;}
+}
+
+@media (max-width: 650px){
+  h1{font-size: 1.5em;}
+  h2{font-size: 0.7em;}
+  li{font-size: 0.5em;}
+}
